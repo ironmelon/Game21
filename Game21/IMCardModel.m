@@ -14,8 +14,8 @@
 {
     self = [super init];
     if (self) {
-        _nameCard = name;
-        _valueCard = value;
+        self.nameCard = name;
+        self.valueCard = value;
     }
     return self;
 }
